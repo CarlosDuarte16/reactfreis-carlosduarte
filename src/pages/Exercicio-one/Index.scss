@@ -1,0 +1,95 @@
+.descrissao-pagina{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left:5%;
+  margin-top: 2%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+}
+
+.arrow{
+  display: flex;
+}
+.line{
+  margin-top: -2px;
+  display: flex;
+  width: 90%;
+  height: 3px;
+  border: 0;
+  background-color: #FFCE37;
+}
+
+.text-question{
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  margin-top: 35px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  background-color: #fff;
+  width: 90%;
+  height: 12em;
+  margin-bottom: 30px;
+}
+
+.card-result{
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: #fff;
+  width: 30%;
+  height: 270px;
+  margin-left: 35.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  p{
+    color: #383131;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 6%;
+    display: flex;
+
+  }
+
+  .text2{
+    display: flex;
+    margin-top: 10px;
+  }
+
+  input{
+    display: flex;
+    border-radius: 10px;
+    border: solid #A5A5A5 1px;
+    margin-bottom: 10px;
+    width: 84%;
+    height: 12%;
+    margin-top: -10px;
+    margin-left:6%;
+    color: #383131;
+
+  }
+  button{
+    padding: 0px;
+    display: flex;
+    width: 50%;
+    height: 42px;
+    background-color: #6278F7;
+    color: #fff;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    margin-left: 42%;
+    margin-top: 22px;
+  }
+}
+
+#result{
+  display: flex;  
+  justify-content: center;
+  margin-left: 16%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  font-weight: 700;
+  margin-top: 2px;
+  color: #383131;
+} 
