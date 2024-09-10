@@ -1,155 +1,155 @@
-.pagina-exercicio12{
-  .line3{
-    background-color: #FFCE37;
-  }
-
-.question12{
-  display: flex;
-  
-  .information_create{
-    margin-left: 6%;
-
-    h4{
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      color: #383131;
-      font-weight: 700;
-      font-size: 1.3em;
-    }
-    hr{
-      margin-top: -15px;
-      width: 62em;
-      margin-left: -1px;
-      height: 2px;
-      background-color: #6533B7;
-    }
-  }
-
-    .card_information_pessoas{
-      display: flex;
-      flex-direction: column;
-      background-color: #fff;
-      width: 30%;
-      height: 430px;
-      margin-left: 5%;
-      border-radius: 15px;
-
-      input{
-        width: 15px;
-      }
-
-      .input_text{
-        width: 85%;
-        height: 3em;
-        margin-left: 6%;
-        margin-top: -5px;
-        border-radius: 10px;
-        border: 1px solid #b1b0b0;
-      }
-
-      .buttons_select{
-        display: flex;
-        margin-left: 8%;
-        margin-top: -2%;
-        gap: 10px;
-
-        p{
-          margin-left: -5px;
-          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          font-weight: 400;
-          font-size: 1.2em;
-        }
-      }
-
-      h3{
-        margin-left: 6%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-weight: 100;
-        color: #383131;
-        font-size: 1.3em;
-      }
-
-      button{
-        background-color: #6278F7;
-        color: #fff;
-        font-weight: 500;
-        font-size: 1.2em;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        width: 45%;
-        height: 50px;
-        padding: 0px;   
-        text-align: center;
-        margin-left: 50%;
-      }
-    }
-    
-  }
+.pagina-exercicio12 .line3 {
+  background-color: #FFCE37;
 }
 
-.cards_with_informations{
+.pagina-exercicio12 .question12 {
+  display: flex;
+}
+
+.pagina-exercicio12 .question12 .information_create {
+  margin-left: 6%;
+}
+
+.pagina-exercicio12 .question12 .information_create h4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #383131;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.pagina-exercicio12 .question12 .information_create hr {
+  margin-top: -15px;
+  width: 100%;
+  display: flex;
+  margin-left: -1px;
+  height: 2px;
+  background-color: #6533B7;
+}
+
+.pagina-exercicio12 .question12 .card_information_pessoas {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 32%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.pagina-exercicio12 .question12 .card_information_pessoas input {
+  width: 15px;
+}
+
+.pagina-exercicio12 .question12 .card_information_pessoas .input_text {
+  width: 85%;
+  height: 3em;
+  margin-left: 6%;
+  margin-top: -5px;
+  border-radius: 10px;
+  border: 1px solid #b1b0b0;
+}
+
+.pagina-exercicio12 .question12 .card_information_pessoas .buttons_select {
+  display: flex;
+  margin-left: 8%;
+  margin-top: -2%;
+  gap: 10px;
+}
+
+.pagina-exercicio12 .question12 .card_information_pessoas .buttons_select p {
+  margin-left: -5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.pagina-exercicio12 .question12 .card_information_pessoas h3 {
+  margin-left: 6%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+  color: #383131;
+  font-size: 1.3em;
+}
+
+.pagina-exercicio12 .question12 .card_information_pessoas button {
+  background-color: #6278F7;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 45%;
+  padding: 10px;
+  text-align: center;
+  margin-left: 50%;
+  margin-bottom: 15px;
+}
+
+.cards_with_informations {
   display: flex;
   gap: 40px;
   background-color: #fff;
   width: 20%;
   height: auto;
   align-items: center;
+}
 
-  .card_pessoa{
-    text-align: center;
-    background-color: #fff;
-    margin-right: 50px;
-    h5{
-      margin-bottom: -35px;
-      font-size: 1.1em;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      color: #383131;
-      font-weight: 700;
-    }
+.cards_with_informations .card_pessoa {
+  text-align: center;
+  background-color: #fff;
+  margin-right: 50px;
+}
 
-    p{
-      margin-top: 60px;
-      font-size: 1.2em;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-weight: 500;
-      color: #383131;
+.cards_with_informations .card_pessoa h5 {
+  margin-bottom: -35px;
+  font-size: 1.1em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #383131;
+  font-weight: 700;
+}
 
-    }
-  }
-  .apagar-editar{
-    display: flex;
-    padding: 0%;
+.cards_with_informations .card_pessoa p {
+  margin-top: 60px;
+  font-size: 1.2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #383131;
+}
 
-    .dell{
-      border: 2px solid #6278F7;
-      background-color: #6278F7;
-      color: #fff;
-      font-size: 1.2em;
-      margin: 0px;      
-      padding: 0%;
-      width: 130px;
-      height: 3em;
-      border-radius: 0px;
-      border-bottom-right-radius: 10px;
-      cursor:pointer;
-    }
-    .linha-vertical{
-      width: 6px;
-      height:58px;
-      background-color: #3E4C9B;
+.cards_with_informations .apagar-editar {
+  display: flex;
+  padding: 0%;
+}
 
+.cards_with_informations .apagar-editar .dell {
+  border: 2px solid #6278F7;
+  background-color: #6278F7;
+  color: #fff;
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 0%;
+  width: 130px;
+  height: 3em;
+  border-radius: 0px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
 
-    }
-    .edit{
-      border: 2px solid #6278F7;
-      background-color: #6278F7;
-      color: #fff;
-      font-size: 1.2em;
-      margin: 0px;      
-      padding: 0%;
-      width: 130px;
-      height: 3em;
-      border-radius: 0px;
-      border-bottom-left-radius: 10px;
-      cursor:pointer;
-    }
-  }
+.cards_with_informations .apagar-editar .linha-vertical {
+  width: 6px;
+  height: 58px;
+  background-color: #3E4C9B;
+}
+
+.cards_with_informations .apagar-editar .edit {
+  border: 2px solid #6278F7;
+  background-color: #6278F7;
+  color: #fff;
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 0%;
+  width: 130px;
+  height: 3em;
+  border-radius: 0px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
 }

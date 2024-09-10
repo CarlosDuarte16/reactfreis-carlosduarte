@@ -5,17 +5,17 @@
 
   .card-result2 {
     margin-left: 5%;
-    width: 30%;
+    width: 35%;
   }
 
   .input1 {
-    margin-left: -4%;
+    margin-left: 2%;
   }
-
+ 
   input {
     width: 15em;
     height: 3em;
-    margin-left: 0%;
+    margin-left: -5%;
   }
 
   button {
@@ -40,23 +40,22 @@
   }
 
   .button-descrissao {
-    flex: 1;
-    height: 60px;
+    padding: 10px;
+    width: 35%;
     color: #383131;
     background-color: #fff;
-    box-shadow: 5px 5px 20px #F5F6FA;
+    box-shadow: 5px 5px 10px #c7c7c8;
     font-size: 18px;
     font-weight: 700;
     text-align: start;
-    padding: 0px 1%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-right: 10px;
+    margin-left: 62%;
   }
 
   .img-lixeira {
     width: auto;
     height: 3em;
     cursor: pointer;
-    margin-top: 14px;
+    margin-top: 20px;
   }
 }

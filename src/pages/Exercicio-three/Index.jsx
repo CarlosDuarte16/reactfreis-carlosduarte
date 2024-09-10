@@ -29,7 +29,7 @@ export default function Exercicio3() {
     const calculoTotalPMG = calculoaçaiP + calculoaçaiM + calculoaçaiG;
     setCalculoaçais(calculoTotalPMG)
   }
-
+ 
   return (
     <div className="pagina-Exercicio3">
       <Head/>
